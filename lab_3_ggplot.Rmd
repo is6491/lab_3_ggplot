@@ -60,7 +60,7 @@ ggplot() +
 * df.heightweight is an object of type tibble
 * it has 236 observations and 5 variables
 * variables can be accessed by the convention “df.heightweight$ageYear”
-* variables have different types themselves,which costrain how we can visualize them effectively
+* variables have different types themselves,which constrain how we can visualize them effectively
 
 ```{r hw,message=FALSE}
 df.heightweight <- read_csv(here('_data','heightweight.csv'))
